@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-1. GOIT HomeWork HTML+CSS (Wednesday, July 14, 2021)
+# goit-markup-hw-02
+1. GOIT HomeWork HTML+CSS (Tuesday, July 20, 2021)
