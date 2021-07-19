@@ -75,16 +75,20 @@ header {
 
 /*Контакты в шапке*/
 .contact-header .link {
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 /*Герой*/
 .hero {
   background-color: #2f303a;
+
+  width: 1600px;
+  height: 600px;
 }
 .hero-title {
   color: var(--title-text-color);
 
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -95,8 +99,18 @@ header {
 .btn.primary {
   background: var(--accent-color);
   color: var(--title-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+
+  border: none;
   border-radius: 4px;
   position: relative;
   left: 50%;
@@ -135,6 +149,8 @@ header {
 Наша команда */
 .functions-title,
 .team-title {
+  font-size: 36px;
+
   text-align: center;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -161,7 +177,7 @@ header {
 .team-card h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -171,7 +187,7 @@ header {
   color: var(--secondary-text-color);
 
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -240,6 +256,11 @@ footer address {
   border-radius: 4px;
 }
 
+.projects-filters .list {
+  display: flex;
+}
+
+/* Карточки проекто */
 .projects-cards h2 {
   color: var(--primary-text-color);
 
